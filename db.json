@@ -1,0 +1,46 @@
+{
+  "canchas": [
+    {
+      "id": 1,
+      "nombre": "Cancha Sintética Central",
+      "tipo": "Fútbol 7",
+      "fecha": "2026-10-02",
+      "hora": "18:00 - 19:00",
+      "disponible": true,
+      "precio": 80,
+      "duracion": "60 min",
+      "descripcion": "Cancha con grass sintético de última generación e iluminación LED.",
+      "servicios_incluidos": ["Iluminación", "Vestuarios", "Estacionamiento"]
+    },
+    {
+      "id": 2,
+      "nombre": "Cancha Los Peloteros",
+      "tipo": "Fútbol 5",
+      "fecha": "2026-10-02",
+      "hora": "19:00 - 20:00",
+      "disponible": false,
+      "precio": 60,
+      "duracion": "60 min",
+      "descripcion": "Ideal para partidos rápidos con amigos.",
+      "servicios_incluidos": ["Vestuarios"]
+    },
+    {
+      "id": 3,
+      "nombre": "Cancha Techada Pro",
+      "tipo": "Fútbol 7",
+      "fecha": "2026-10-02",
+      "hora": "20:00 - 21:00",
+      "disponible": true,
+      "precio": 100,
+      "duracion": "60 min",
+      "descripcion": "Totalmente techada, apta para jugar con lluvia o frío.",
+      "servicios_incluidos": ["Iluminación", "Vestuarios", "Estacionamiento", "Tribuna"]
+    }
+  ],
+  "servicios": [
+    { "id": 1, "nombre": "Alquiler de cancha", "descripcion": "Por hora para fútbol 5 y 7" },
+    { "id": 2, "nombre": "Iluminación nocturna", "descripcion": "Reflectores LED de alta potencia" },
+    { "id": 3, "nombre": "Vestuarios y duchas", "descripcion": "Agua caliente y casilleros seguros" },
+    { "id": 4, "nombre": "Estacionamiento", "descripcion": "Vigilancia permanente para autos y motos" }
+  ]
+}
