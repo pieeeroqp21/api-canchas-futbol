@@ -9,7 +9,7 @@
       "disponible": true,
       "precio": 80,
       "duracion": "60 min",
-      "descripcion": "Cancha con grass sintético de última generación e iluminación LED.",
+      "descripcion": "Cancha con grass sintético monofilamento de última generación e iluminación LED.",
       "servicios_incluidos": ["Iluminación", "Vestuarios", "Estacionamiento"]
     },
     {
@@ -21,7 +21,7 @@
       "disponible": false,
       "precio": 60,
       "duracion": "60 min",
-      "descripcion": "Ideal para partidos rápidos con amigos.",
+      "descripcion": "Cancha rápida de fútbol sala con vallas laterales acolchadas.",
       "servicios_incluidos": ["Vestuarios"]
     },
     {
@@ -33,14 +33,76 @@
       "disponible": true,
       "precio": 100,
       "duracion": "60 min",
-      "descripcion": "Totalmente techada, apta para jugar con lluvia o frío.",
+      "descripcion": "Estructura totalmente techada para jugar sin preocuparse por lluvia o frío.",
       "servicios_incluidos": ["Iluminación", "Vestuarios", "Estacionamiento", "Tribuna"]
+    },
+    {
+      "id": 4,
+      "nombre": "Cancha Monumental",
+      "tipo": "Fútbol 7",
+      "fecha": "2026-10-02",
+      "hora": "21:00 - 22:00",
+      "disponible": true,
+      "precio": 90,
+      "duracion": "60 min",
+      "descripcion": "Medidas reglamentarias para campeonatos y partidos nocturnos.",
+      "servicios_incluidos": ["Iluminación LED", "Marcador Electrónico", "Vestuarios"]
+    },
+    {
+      "id": 5,
+      "nombre": "Cancha El Semillero",
+      "tipo": "Fútbol 5",
+      "fecha": "2026-10-03",
+      "hora": "16:00 - 17:00",
+      "disponible": true,
+      "precio": 50,
+      "duracion": "60 min",
+      "descripcion": "Ideal para entrenamientos de menores o partidos vespertinos.",
+      "servicios_incluidos": ["Vestuarios", "Pelotas de entrenamiento"]
+    },
+    {
+      "id": 6,
+      "nombre": "Cancha Los Galácticos",
+      "tipo": "Fútbol 5",
+      "fecha": "2026-10-03",
+      "hora": "17:00 - 18:00",
+      "disponible": false,
+      "precio": 55,
+      "duracion": "60 min",
+      "descripcion": "Turno reservado para torneo corporativo de fin de semana.",
+      "servicios_incluidos": ["Iluminación", "Vestuarios"]
+    },
+    {
+      "id": 7,
+      "nombre": "Cancha Estadio Principal",
+      "tipo": "Fútbol 8",
+      "fecha": "2026-10-03",
+      "hora": "19:00 - 20:30",
+      "disponible": true,
+      "precio": 140,
+      "duracion": "90 min",
+      "descripcion": "Espacio amplio para 8 contra 8 con gradas para 100 espectadores.",
+      "servicios_incluidos": ["Iluminación", "Vestuarios", "Arbitraje opcional", "Tribuna"]
+    },
+    {
+      "id": 8,
+      "nombre": "Cancha La Bombonera",
+      "tipo": "Fútbol 7",
+      "fecha": "2026-10-03",
+      "hora": "22:00 - 23:00",
+      "disponible": false,
+      "precio": 85,
+      "duracion": "60 min",
+      "descripcion": "Turno nocturno cerrado con tarifa promocional.",
+      "servicios_incluidos": ["Iluminación", "Estacionamiento"]
     }
   ],
   "servicios": [
-    { "id": 1, "nombre": "Alquiler de cancha", "descripcion": "Por hora para fútbol 5 y 7" },
-    { "id": 2, "nombre": "Iluminación nocturna", "descripcion": "Reflectores LED de alta potencia" },
-    { "id": 3, "nombre": "Vestuarios y duchas", "descripcion": "Agua caliente y casilleros seguros" },
-    { "id": 4, "nombre": "Estacionamiento", "descripcion": "Vigilancia permanente para autos y motos" }
+    { "id": 1, "nombre": "Alquiler de canchas", "descripcion": "Turnos de 60 y 90 minutos para fútbol 5, 7 y 8." },
+    { "id": 2, "nombre": "Organización de Campeonatos", "descripcion": "Gestión de fixtures, planillaje y premiación para empresas o amigos." },
+    { "id": 3, "nombre": "Iluminación Nocturna", "descripcion": "Potentes reflectores LED antideslumbrantes." },
+    { "id": 4, "nombre": "Vestuarios y Duchas", "descripcion": "Casilleros individuales y agua caliente garantizada." },
+    { "id": 5, "nombre": "Estacionamiento Privado", "descripcion": "Zona vigilada para autos, motocicletas y bicicletas." },
+    { "id": 6, "nombre": "Escuela de Formación", "descripcion": "Clases de fútbol para niños y jóvenes los fines de semana." }
   ]
 }
